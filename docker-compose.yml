@@ -52,7 +52,7 @@ services:
     command: >
       sh -c "apt-get update &&
       pip install --upgrade pip &&
-      apt-get install -y make automake gcc g++ subversion python3-dev libblas3 liblapack3 liblapack-dev libblas-dev && 
+      apt-get install -y make automake gcc g++ subversion python3-dev libblas3 liblapack3 liblapack-dev libblas-dev pkg-config libhdf5-dev && 
       pip install influxdb-client openstef-dbc==3.7.6 pydantic pydantic-settings &&
       cd /opt/influxdb-configurator/ &&
       python load_data_to_influx.py
