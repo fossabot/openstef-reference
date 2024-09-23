@@ -1,4 +1,3 @@
-
 # Openstef-reference
 
 Reference implementation of the [OpenSTEF](https://github.com/OpenSTEF) stack. It includes all key functionality, e.g. the forecast engine, data storage and -models, the expert user dashboard!
@@ -50,6 +49,7 @@ Set the influx token pasword (`mytoken`) from withing the dashboard. Do this via
 To view the dash board navigate to the dashboard: Dashboards > Station forecasts.
 
 ![screenshot](https://user-images.githubusercontent.com/60883372/146760483-29af3ac7-62af-4f13-98c7-982a79c517d1.jpg)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjoyshmitz%2Fopenstef-reference.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjoyshmitz%2Fopenstef-reference?ref=badge_shield)
 Screenshot of the operational dashboard showing the key functionality of OpenSTEF. 
 Dashboard documentation can be found [here](https://github.com/OpenSTEF/.github/blob/main/profile/README.md).
 
@@ -103,6 +103,9 @@ $ docker-compose up --renew-anon-volumes
 
 # License
 This project is licensed under the Mozilla Public License, version 2.0 - see LICENSE for details.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjoyshmitz%2Fopenstef-reference.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjoyshmitz%2Fopenstef-reference?ref=badge_large)
 
 # Licenses third-party libraries
 This project includes third-party libraries, which are licensed under their own respective Open-Source licenses. SPDX-License-Identifier headers are used to show which license is applicable. The concerning license files can be found in the LICENSES directory.
